@@ -7,14 +7,47 @@
     <title>Belajar HTML</title>
   </head>
   <body>
-    <!-- Warna HTML ditentukan dengan nama warna yang telah ditentukan sebelumnya, atau dengan nilai RGB, HEX, HSL, RGBA, atau HSLA. -->
-    <!-- HTML mendukung 140 nama warna standar . -->
-    <!-- penggunaan border  -->
-    <h1 style="background-color: rgb(255, 99, 71)">...</h1>
-    <h1 style="background-color: #ff6347">...</h1>
-    <h1 style="background-color: hsl(9, 100%, 64%)">...</h1>
+    <!-- RGB COLOR HTML -->
+    <!-- Nilai warna RGB mewakili sumber cahaya MERAH, HIJAU, dan BIRU.
+    Nilai warna RGBA adalah perpanjangan dari RGB dengan saluran Alpha (opacity). -->
 
-    <h1 style="background-color: rgba(255, 99, 71, 0.5)">...</h1>
-    <h1 style="background-color: hsla(9, 100%, 64%, 0.5)">...</h1>
+    <!-- Setiap parameter (merah, hijau, dan biru) mendefinisikan intensitas warna
+    dengan nilai antara 0 dan 255. Ini berarti ada 256 x 256 x 256 = 16777216
+    kemungkinan warna! Misalnya, rgb(255, 0, 0) ditampilkan sebagai merah,
+    karena merah diatur ke nilai tertinggi (255), dan dua lainnya (hijau dan
+    biru) diatur ke 0. Contoh lain, rgb(0, 255, 0) ditampilkan sebagai hijau,
+    karena hijau diatur ke nilai tertinggi (255), dan dua lainnya (merah dan
+    biru) diatur ke 0. Untuk menampilkan hitam, setel semua parameter warna ke
+    0, seperti ini: rgb(0, 0, 0). Untuk menampilkan putih, setel semua parameter
+    warna ke 255, seperti ini: rgb(255, 255, 255). Percobaan dengan mencampur
+    nilai RGB di bawah ini: -->
+
+    <h1 style="background-color: rgb(60, 60, 60)">rgb(60, 60, 60)</h1>
+    <h1 style="background-color: rgb(100, 100, 100)">rgb(100, 100, 100)</h1>
+    <h1 style="background-color: rgb(140, 140, 140)">rgb(140, 140, 140)</h1>
+    <h1 style="background-color: rgb(180, 180, 180)">rgb(180, 180, 180)</h1>
+    <h1 style="background-color: rgb(200, 200, 200)">rgb(200, 200, 200)</h1>
+    <h1 style="background-color: rgb(240, 240, 240)">rgb(240, 240, 240)</h1>
+
+    <!-- Nilai Warna RGBA 
+    Nilai warna RGBA adalah perpanjangan dari nilai warna RGB
+    dengan saluran Alpha - yang menentukan opasitas untuk warna. 
+    Nilai warna RGBA ditentukan dengan: rgba ( merah, hijau , biru, alfa ) Parameter alpha
+    adalah angka antara 0.0 (sepenuhnya transparan) dan 1.0 (tidak transparan
+    sama sekali): Percobaan dengan mencampur nilai RGBA di bawah ini: -->
+    <h1 style="background-color: rgba(255, 99, 71, 0)">rgba(255, 99, 71, 0)</h1>
+    <h1 style="background-color: rgba(255, 99, 71, 0.2)">
+      rgba(255, 99, 71, 0.2)
+    </h1>
+    <h1 style="background-color: rgba(255, 99, 71, 0.4)">
+      rgba(255, 99, 71, 0.4)
+    </h1>
+    <h1 style="background-color: rgba(255, 99, 71, 0.6)">
+      rgba(255, 99, 71, 0.6)
+    </h1>
+    <h1 style="background-color: rgba(255, 99, 71, 0.8)">
+      rgba(255, 99, 71, 0.8)
+    </h1>
+    <h1 style="background-color: rgba(255, 99, 71, 1)">rgba(255, 99, 71, 1)</h1>
   </body>
 </html>
