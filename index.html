@@ -8,59 +8,43 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <h2>Bagaimana cara kerjanya?</h2>
+    <h1>Gambar Latar Belakang</h1>
     <p>
-      Gagasan di balik peta gambar adalah Anda harus dapat melakukan tindakan
-      yang berbeda tergantung di mana dalam gambar yang Anda klik. Untuk membuat
-      peta gambar, Anda memerlukan gambar, dan beberapa kode HTML yang
-      menjelaskan area yang dapat diklik.
+      pada elemen HTML Untuk menambahkan gambar latar belakang pada elemen HTML,
+      gunakan style atribut HTML dan background-image properti CSS:
     </p>
 
-    <p>
-      disisipkan menggunakan <img />tag. Satu-satunya perbedaan dari gambar lain
-      adalah Anda harus menambahkan usemapatribut:
+    <p style="background-image: url('assets/img/gambar.png')">
+      gambar ini akan berulang ..... Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Repellat adipisci cupiditate sunt magni dolor minima
+      accusantium vel a amet modi, esse labore placeat blanditiis ipsum porro
+      perferendis laudantium eum molestias unde reiciendis fuga saepe quis?
+      Libero hic totam, praesentium cupiditate minus modi dolorem perferendis
+      odit, rerum corporis nam excepturi veritatis sequi fugiat quo eveniet est?
+      Optio magni odio laborum odit sed possimus officia error consectetur,
+      assumenda molestiae reprehenderit rem, quibusdam ipsa adipisci delectus,
+      magnam minima dolores quo reiciendis debitis sapiente non ut dolorem
+      impedit? Vitae corrupti voluptate, cum voluptates nobis aspernatur dolorem
+      illo repudiandae tempora, aperiam libero molestiae, soluta voluptatem!
     </p>
-    <img src="assets/img/gambar.png" alt="Workplace" usemap="#workmap" />
-    <p>
-      Nilai usemapdimulai dengan tag hash #diikuti dengan nama peta gambar, dan
-      digunakan untuk membuat hubungan antara gambar dan peta gambar.
+
+    <p
+      style="
+        background-image: url('assets/img/gambar.png');
+        background-repeat: no-repeat;
+      "
+    >
+      gambar ini tidak akan berulang .... Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Repellat adipisci cupiditate sunt magni dolor minima
+      accusantium vel a amet modi, esse labore placeat blanditiis ipsum porro
+      perferendis laudantium eum molestias unde reiciendis fuga saepe quis?
+      Libero hic totam, praesentium cupiditate minus modi dolorem perferendis
+      odit, rerum corporis nam excepturi veritatis sequi fugiat quo eveniet est?
+      Optio magni odio laborum odit sed possimus officia error consectetur,
+      assumenda molestiae reprehenderit rem, quibusdam ipsa adipisci delectus,
+      magnam minima dolores quo reiciendis debitis sapiente non ut dolorem
+      impedit? Vitae corrupti voluptate, cum voluptates nobis aspernatur dolorem
+      illo repudiandae tempora, aperiam libero molestiae, soluta voluptatem!
     </p>
-
-    <h1>CONTOH</h1>
-
-    <img src="assets/img/gambar.png" alt="Workplace" usemap="#workmap" />
-
-    <map name="workmap">
-      <area
-        shape="rect"
-        coords="34,44,270,350"
-        alt="Computer"
-        href="computer.htm"
-      />
-      <area
-        shape="rect"
-        coords="290,172,333,250"
-        alt="Phone"
-        href="phone.htm"
-      />
-      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />
-    </map>
-
-      <p>
-        Bagaimana cara kerjanya? Gagasan di balik peta gambar adalah Anda harus
-        dapat melakukan tindakan yang berbeda tergantung di mana dalam gambar
-        yang Anda klik. Untuk membuat peta gambar, Anda memerlukan gambar, dan
-        beberapa kode HTML yang menjelaskan area yang dapat diklik.
-      </p>
-    
-      <h1>Buat Peta Gambar</h1>
-      <p>Kemudian, tambahkan <map>elemen.Elemen <map>tersebut digunakan untuk membuat peta gambar, dan ditautkan ke gambar dengan menggunakan name atribut yang diperlukan:</p> 
-      <p>Atribut nameharus memiliki nilai yang sama dengan <img>atribut usemap.</p>
-
-     <h1> Ringkasan Bab</h1>
-      <p> Gunakan elemen HTML <map>untuk mendefinisikan peta gambar</p>
-      <p> Gunakan elemen HTML <area>untuk menentukan area yang dapat diklik di peta gambar</p>
-      <p> usemapGunakan atribut HTML dari <img>elemen untuk menunjuk ke peta gambar</p>
-
   </body>
 </html>
