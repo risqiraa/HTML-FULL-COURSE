@@ -8,58 +8,59 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <h1>HTML images</h1>
-    <h3>Gambar dapat meningkatkan desain dan tampilan halaman web.</h3>
+    <h2>Bagaimana cara kerjanya?</h2>
     <p>
-      Gambar HTML Tag HTML <img />digunakan untuk menyematkan gambar di halaman
-      web. <br />
-      Gambar secara teknis tidak dimasukkan ke dalam halaman web; gambar
-      ditautkan ke halaman web. <br />
-      Tag <img />menciptakan ruang penyimpanan untuk gambar yang direferensikan.
-      <br />
-      Tag <img />kosong, hanya berisi atribut, dan tidak memiliki tag penutup.
-      Tag <img />memiliki dua atribut wajib: <br />
-      src - Menentukan jalur ke gambar <br />
-      alt - Menentukan teks alternatif untuk gambar
+      Gagasan di balik peta gambar adalah Anda harus dapat melakukan tindakan
+      yang berbeda tergantung di mana dalam gambar yang Anda klik. Untuk membuat
+      peta gambar, Anda memerlukan gambar, dan beberapa kode HTML yang
+      menjelaskan area yang dapat diklik.
     </p>
-    <br />
-    <!-- normal tag img -->
-    <h2>
-      <img src="assets/img/gambar.png" alt="ini gambar" />
-    </h2>
 
-    <!-- tag img dan lebar dan tinggi -->
-    <img
-      src="assets/img/gambar.png"
-      alt="Girl in a jacket"
-      style="width: 500px; height: 600px"
-    />
-    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600" />
-
-    <!-- add gif -->
-    <img
-      src="programming.gif"
-      alt="Computer Man"
-      style="width: 48px; height: 48px"
-    />
-
-    <!-- image float -->
     <p>
-      <img
-        src="smiley.gif"
-        alt="Smiley face"
-        style="float: right; width: 42px; height: 42px"
+      disisipkan menggunakan <img />tag. Satu-satunya perbedaan dari gambar lain
+      adalah Anda harus menambahkan usemapatribut:
+    </p>
+    <img src="assets/img/gambar.png" alt="Workplace" usemap="#workmap" />
+    <p>
+      Nilai usemapdimulai dengan tag hash #diikuti dengan nama peta gambar, dan
+      digunakan untuk membuat hubungan antara gambar dan peta gambar.
+    </p>
+
+    <h1>CONTOH</h1>
+
+    <img src="assets/img/gambar.png" alt="Workplace" usemap="#workmap" />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="computer.htm"
       />
-      The image will float to the right of the text.
-    </p>
-
-    <p>
-      <img
-        src="smiley.gif"
-        alt="Smiley face"
-        style="float: left; width: 42px; height: 42px"
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="phone.htm"
       />
-      The image will float to the left of the text.
-    </p>
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />
+    </map>
+
+      <p>
+        Bagaimana cara kerjanya? Gagasan di balik peta gambar adalah Anda harus
+        dapat melakukan tindakan yang berbeda tergantung di mana dalam gambar
+        yang Anda klik. Untuk membuat peta gambar, Anda memerlukan gambar, dan
+        beberapa kode HTML yang menjelaskan area yang dapat diklik.
+      </p>
+    
+      <h1>Buat Peta Gambar</h1>
+      <p>Kemudian, tambahkan <map>elemen.Elemen <map>tersebut digunakan untuk membuat peta gambar, dan ditautkan ke gambar dengan menggunakan name atribut yang diperlukan:</p> 
+      <p>Atribut nameharus memiliki nilai yang sama dengan <img>atribut usemap.</p>
+
+     <h1> Ringkasan Bab</h1>
+      <p> Gunakan elemen HTML <map>untuk mendefinisikan peta gambar</p>
+      <p> Gunakan elemen HTML <area>untuk menentukan area yang dapat diklik di peta gambar</p>
+      <p> usemapGunakan atribut HTML dari <img>elemen untuk menunjuk ke peta gambar</p>
+
   </body>
 </html>
