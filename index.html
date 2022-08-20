@@ -7,47 +7,16 @@
     <title>Belajar HTML</title>
     
   <body>
-  <!-- Tautan ditemukan di hampir semua halaman web. Tautan memungkinkan pengguna mengeklik jalan mereka dari halaman ke halaman.
-  Tautan HTML - Hyperlink
-  Tautan HTML adalah hyperlink.
-  Anda dapat mengklik tautan dan melompat ke dokumen lain.
-  Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil. -->
+    <!-- URL Absolut vs. URL Relatif -->
+    <p> Kedua contoh di bawah menggunakan URL absolut (alamat web lengkap) dalam hrefatribut.</p>
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
 
-  <!-- Tautan HTML - Sintaks
-  Tag HTML <a>mendefinisikan hyperlink. Ini memiliki sintaks berikut: -->
-  
-  <a href="url">link text</a>
-
-  <!-- Atribut terpenting dari <a> elemen adalah hrefatribut, yang menunjukkan tujuan tautan.
-  Teks tautan adalah bagian yang akan terlihat oleh pembaca.
-  Mengklik teks tautan, akan mengirim pembaca ke alamat URL yang ditentukan. -->
-
-  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-
-  <!-- Secara default, tautan akan muncul sebagai berikut di semua browser:
-  -Tautan yang belum dikunjungi digarisbawahi dan berwarna biru
-  -Tautan yang dikunjungi digarisbawahi dan berwarna ungu
-  -Tautan aktif digarisbawahi dan merah -->
-
-  <!-- Tautan HTML - Atribut Target
-  Secara default, halaman tertaut akan ditampilkan di jendela browser saat ini. Untuk mengubahnya, Anda harus menentukan target lain untuk tautan tersebut.
-  Atribut targetmenentukan tempat untuk membuka dokumen tertaut.
-  Atribut targetdapat memiliki salah satu dari nilai berikut:
-  _self- Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik
-  _blank- Membuka dokumen di jendela atau tab baru
-  _parent- Membuka dokumen di bingkai induk
-  _top- Membuka dokumen di seluruh badan jendela -->
-
-  <!-- Gunakan target="_blank" untuk membuka dokumen tertaut di jendela atau tab browser baru: -->
-  <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools! new page</a>
-  <!-- Gunakan target="_self" untuk Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik -->
-  <a href="https://www.w3schools.com/" target="_self">Visit W3Schools! in page</a>
-  <!-- Gunakan target="_blank" untuk Membuka dokumen di bingkai induk -->
-  <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools! Membuka dokumen di bingkai induk</a>
-  <!-- Gunakan target="_blank" untuk Membuka dokumen di seluruh badan jendela -->
-  <a href="https://www.w3schools.com/" target="_top">Visit W3Schools! membuka dokumen di seluruh badan jendela</a>
-
-
+    <p> lokal (tautan ke halaman dalam situs web yang sama) ditentukan dengan URL relatif (tanpa bagian "https://www"):</p>
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
 
   </body>
 </html>
