@@ -1,11 +1,23 @@
-body {
-    background-color: powderblue;
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-h1 {
-    color: blue;
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-p {
+a:hover {
     color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
