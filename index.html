@@ -7,23 +7,24 @@
     <title>Belajar HTML</title>
   </head>
   <body>
-    <!-- HEX COLOR -->
-    <!-- Nilai Warna HEX Dalam HTML, warna dapat ditentukan menggunakan nilai
-    heksadesimal dalam bentuk: #rrggbb _ Dimana rr (merah), gg (hijau) dan bb
-    (biru) adalah nilai heksadesimal antara 00 dan ff (sama dengan desimal
-    0-255). Misalnya, #ff0000 ditampilkan sebagai merah, karena merah diatur ke
-    nilai tertinggi (ff), dan dua lainnya (hijau dan biru) diatur ke 00. Contoh
-    lain, #00ff00 ditampilkan sebagai hijau, karena hijau diatur ke nilai
-    tertinggi (ff), dan dua lainnya (merah dan biru) diatur ke 00. Untuk
-    menampilkan hitam, setel semua parameter warna ke 00, seperti ini: #000000.
-    Untuk menampilkan putih, setel semua parameter warna ke ff, seperti ini:
-    #ffffff. Percobaan dengan mencampur nilai HEX di bawah ini: -->
+    <!-- HSL Color -->
+    <!-- HSL adalah singkatan dari Hue, Saturation, dan Lightness. Nilai warna HSLA
+    merupakan perpanjangan dari HSL dengan saluran Alpha (opacity). Nilai Warna
+    HSL Dalam HTML, sebuah warna dapat ditentukan menggunakan hue, saturation,
+    dan lightness (HSL) dalam bentuk: hsl ( rona , saturasi , kecerahan ) Hue
+    adalah derajat pada roda warna dari 0 hingga 360. 0 adalah merah, 120 adalah
+    hijau, dan 240 adalah biru. Saturasi adalah nilai persentase, 0% berarti
+    bayangan abu-abu, dan 100% adalah warna penuh. Lightness juga merupakan
+    nilai persentase, 0% hitam, dan 100% putih. Percobaan dengan mencampur nilai
+    HSL di bawah ini: -->
 
-    <h1 style="background-color: #ff0000">#ff0000</h1>
-    <h1 style="background-color: #0000ff">#0000ff</h1>
-    <h1 style="background-color: #3cb371">#3cb371</h1>
-    <h1 style="background-color: #ee82ee">#ee82ee</h1>
-    <h1 style="background-color: #ffa500">#ffa500</h1>
-    <h1 style="background-color: #6a5acd">#6a5acd</h1>
+    <h1 style="background-color: hsla(0, 100%, 51%, 0.514)">
+      hsl(0, 100%, 50%)
+    </h1>
+    <h1 style="background-color: hsl(240, 100%, 50%)">hsl(240, 100%, 50%)</h1>
+    <h1 style="background-color: hsl(147, 50%, 47%)">hsl(147, 50%, 47%)</h1>
+    <h1 style="background-color: hsl(300, 76%, 72%)">hsl(300, 76%, 72%)</h1>
+    <h1 style="background-color: hsl(39, 100%, 50%)">hsl(39, 100%, 50%)</h1>
+    <h1 style="background-color: hsl(248, 53%, 58%)">hsl(248, 53%, 58%)</h1>
   </body>
 </html>
