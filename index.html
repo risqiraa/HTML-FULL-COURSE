@@ -7,24 +7,34 @@
     <title>Belajar HTML</title>
   </head>
   <body>
-    <!-- HSL Color -->
-    <!-- HSL adalah singkatan dari Hue, Saturation, dan Lightness. Nilai warna HSLA
-    merupakan perpanjangan dari HSL dengan saluran Alpha (opacity). Nilai Warna
-    HSL Dalam HTML, sebuah warna dapat ditentukan menggunakan hue, saturation,
-    dan lightness (HSL) dalam bentuk: hsl ( rona , saturasi , kecerahan ) Hue
-    adalah derajat pada roda warna dari 0 hingga 360. 0 adalah merah, 120 adalah
-    hijau, dan 240 adalah biru. Saturasi adalah nilai persentase, 0% berarti
-    bayangan abu-abu, dan 100% adalah warna penuh. Lightness juga merupakan
-    nilai persentase, 0% hitam, dan 100% putih. Percobaan dengan mencampur nilai
-    HSL di bawah ini: -->
+    <!-- CSS adalah singkatan dari Cascading Style Sheets. CSS menghemat banyak
+    pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus. -->
 
-    <h1 style="background-color: hsla(0, 100%, 51%, 0.514)">
-      hsl(0, 100%, 50%)
-    </h1>
-    <h1 style="background-color: hsl(240, 100%, 50%)">hsl(240, 100%, 50%)</h1>
-    <h1 style="background-color: hsl(147, 50%, 47%)">hsl(147, 50%, 47%)</h1>
-    <h1 style="background-color: hsl(300, 76%, 72%)">hsl(300, 76%, 72%)</h1>
-    <h1 style="background-color: hsl(39, 100%, 50%)">hsl(39, 100%, 50%)</h1>
-    <h1 style="background-color: hsl(248, 53%, 58%)">hsl(248, 53%, 58%)</h1>
+    <!-- Apa itu CSS? Cascading Style Sheets (CSS) digunakan untuk memformat tata
+    letak halaman web. Dengan CSS, Anda dapat mengontrol warna, font, ukuran
+    teks, jarak antar elemen, bagaimana elemen diposisikan dan ditata, gambar
+    latar belakang atau warna latar apa yang akan digunakan, tampilan berbeda
+    untuk perangkat dan ukuran layar yang berbeda, dan lebih banyak! -->
+
+    <!-- Tip: Kata cascading berarti bahwa gaya yang diterapkan ke elemen induk juga
+    akan diterapkan ke semua elemen turunan di dalam induk. Jadi, jika Anda
+    menyetel warna badan teks menjadi "biru", semua judul, paragraf, dan elemen
+    teks lainnya di dalam badan juga akan mendapatkan warna yang sama (kecuali
+    jika Anda menentukan yang lain)! -->
+
+    <!-- Menggunakan CSS
+    CSS dapat ditambahkan ke dokumen HTML dengan 3 cara:
+    Inline - dengan menggunakan styleatribut di dalam elemen HTML
+    Internal - dengan menggunakan <style>elemen di <head>bagian
+    Eksternal - dengan menggunakan <link> elemen untuk menautkan ke file CSS eksternal
+    Cara paling umum untuk menambahkan CSS, adalah dengan menyimpan gaya di file CSS eksternal. Namun, dalam tutorial ini kita akan menggunakan gaya inline dan internal, karena ini lebih mudah untuk didemonstrasikan, dan lebih mudah bagi Anda untuk mencobanya sendiri. -->
+
+    <!-- CSS sebaris
+    CSS sebaris digunakan untuk menerapkan gaya unik ke satu elemen HTML.
+    CSS sebaris menggunakan styleatribut elemen HTML.
+    Contoh berikut menyetel warna teks <h1>elemen menjadi biru, dan warna teks <p>elemen menjadi merah: -->
+
+    <h1 style="color: blue">A Blue Heading</h1>
+    <p style="color: red">A red paragraph.</p>
   </body>
 </html>
