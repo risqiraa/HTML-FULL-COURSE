@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
   </head>
   <body>
-    <img src="/assets/img/gambar.png" style="width: 100%" />
-    <img src="/assets/img/gambar.png" style="max-width: 100%; height: auto" />
+    <h2>Show Different Images Depending on Browser Width</h2>
+    <p>
+      Resize the browser width and the image will change at 600px and 1500px.
+    </p>
+
+    <picture>
+      <source srcset="/assets/img/gambar.png" media="(max-width: 600px)" />
+      <source srcset="/assets/img/gambar1.png" media="(max-width: 1000px)" />
+      <source srcset="/assets/img/gambar2.png" />
+      <img src="img_flowers.jpg" alt="Flowers" style="width: auto" />
+    </picture>
   </body>
 </html>
