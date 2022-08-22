@@ -1,25 +1,8 @@
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #D6EEEE;
-}
+} */
 
-th {
-    width: 30%;
-    /* text-align: right; */
-    border: 1px solid;    
-    /* padding: 15px; */
-    padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 40px;
-        border-spacing: 30px;
-}
-
-td{
-    border: 1px solid;
-    /* padding: 15px; */
-    padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 40px;
-        border-spacing: 30px;
+td:nth-child(even),
+th:nth-child(even) {
+    background-color: #D6EEEE;
 }
