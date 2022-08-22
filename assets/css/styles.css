@@ -1,3 +1,7 @@
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
 th {
     width: 30%;
     /* text-align: right; */
