@@ -2,3 +2,13 @@
     font-size: 120%;
     color: red;
 }
+
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+.main {
+    text-align: center;
+}
