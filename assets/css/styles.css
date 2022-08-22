@@ -1,6 +1,9 @@
-th,
-td {
-    
-    
+th {
+    width: 30%;
+    text-align: right;
+    border: 1px solid;    
 }
 
+td{
+    border: 1px solid
+}
