@@ -14,3 +14,11 @@ td{
     border-right: 1px solid rgb(0, 0, 0);
     border-top: 1px solid rgb(245, 24, 24);
 }
+
+td:hover {
+    background-color: #D6EEEE;
+}
+
+th:hover {
+    background-color: #D6EEEE;
+}
