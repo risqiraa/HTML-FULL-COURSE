@@ -1,14 +1,14 @@
 table,
 th,
 td {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     
-    border-collapse: collapse; 
+    /* border-collapse: collapse;  */
     /* untuk menyatukan border */
     
     /* border-collapse: separate; */
     /* untuk memisahkan border */
     background-color: rgb(127, 227, 245);
-     
+    border-radius: 10px;
 }
 
