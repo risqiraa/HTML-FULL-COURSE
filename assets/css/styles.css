@@ -1,8 +1,16 @@
-/* tr:nth-child(even) {
-    background-color: #D6EEEE;
-} */
+table{
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(245, 24, 24);
+}
 
-td:nth-child(even),
-th:nth-child(even) {
-    background-color: #D6EEEE;
+td{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(245, 24, 24);
 }
