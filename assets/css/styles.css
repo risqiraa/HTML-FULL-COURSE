@@ -1,13 +1,7 @@
 th,
 td {
     border: 2px solid rgb(0, 0, 0);
+    border-style: dotted;
     
-    /* border-collapse: collapse;  */
-    /* untuk menyatukan border */
-    
-    /* border-collapse: separate; */
-    /* untuk memisahkan border */
-    background-color: rgb(127, 227, 245);
-    border-radius: 10px;
 }
 
