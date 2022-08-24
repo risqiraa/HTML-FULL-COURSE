@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h2>Search Field</h2>
+    <h2>Telephone Field</h2>
+
     <p>
-      The <strong>input type="search"</strong> is used for search fields
-      (behaves like a regular text field):
+      The <strong>input type="tel"</strong> is used for input fields that should
+      contain a telephone number:
     </p>
 
     <form action="/action_page.php">
-      <label for="gsearch">Search Google:</label>
-      <input type="search" id="gsearch" name="gsearch" />
+      <label for="phone">Enter a phone number:</label><br /><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="089-111-222-333"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}"
+        required
+      /><br /><br />
+      <small>Format: 123-45-678</small><br /><br />
       <input type="submit" value="Submit" />
     </form>
   </body>
